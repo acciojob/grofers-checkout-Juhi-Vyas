@@ -2,12 +2,12 @@ const getSumBtn = document.createElement("button");
 getSumBtn.append("Get Total Price");
 document.body.appendChild(getSumBtn);
 let table = document.querySelector("table")
-let prices = document.querySelectorAll(".price")
+let itemPrices = document.querySelectorAll(".price")
 
 const getSum = () => {
 //Add your code here
 	let sum = 0
-	for(let t of prices){
+	for(let t of itemPrices){
 		let price = t.innerText
 		sum += 	Number(price)
 	}
