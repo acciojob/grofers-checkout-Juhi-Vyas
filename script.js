@@ -2,7 +2,7 @@ const getSumBtn = document.createElement("button");
 getSumBtn.append("Get Total Price");
 document.body.appendChild(getSumBtn);
 let table = document.querySelector("table")
-let prices = document.querySelectorAll(".prices")
+let prices = document.querySelectorAll(".price")
 
 const getSum = () => {
 //Add your code here
